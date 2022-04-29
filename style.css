@@ -1,0 +1,272 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #363636;
+    overflow: hidden;
+    overflow-y: auto;
+}
+
+p{
+    line-height: 190%;
+    
+}
+
+a{
+    text-decoration: none;
+    color: #7d9b94;
+}
+
+/* ************************************************ MENU ******************************* */
+#top-1{
+    display: flex;
+    flex-direction: row;
+    background-color: #7d9b94;
+    padding-left:100px;
+    height: 130px;
+
+    
+    
+
+}
+#menu{
+    background-color: #7d9b94;
+    height: 90px;
+    padding-left:300px;
+    
+}
+
+#menu ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-align: center;
+    
+}
+
+#menu li{
+    display: inline-block;
+    
+}
+
+
+
+#menu a{
+    letter-spacing: 1px;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 16px;
+    line-height: 120px;
+    color: white;
+    
+    padding: 0 40px;
+    border: none;
+    display: block;
+}
+
+#menu a:hover{
+    background-color: #7d9b94;
+}
+
+/* ************************************************ header ******************************* */
+#header{
+    padding: 60px 0px 40px 0;
+    background-color: #333333;
+    text-align: center;
+    
+    
+}
+
+#header h1{
+    letter-spacing: 0.1em;
+    font-size: 44px;
+    color: #ffffff;
+}
+
+#header p{
+    letter-spacing: 0..1em;
+    color: white;
+}
+
+
+/* ************************************************ BANNER ******************************* */
+
+#banner{
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+
+#banner img{
+    width: 33.3%;
+    height: 300px;
+}
+
+/* ************************************************ PAGE ******************************* */
+
+
+#page{
+    min-height: 400px;
+    padding: 20px;
+}
+
+#page h2{
+    margin-bottom: 12px;
+    text-transform: uppercase;
+    font-weight: 400px;
+    font-size: 18px;
+    color: #7d9b94;
+}
+/* #middle{
+    display: flex;
+    flex-direction: row;
+} */
+
+/* CONTENT */
+
+#content{
+    float: left;
+    width: 70%;
+}
+
+
+/* SIDEBAR */
+
+#sidebar{ 
+    float: right;
+    width: 25%;
+}
+
+
+/* LISTS */
+
+ul.styled{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+ul.styled li{
+    border-top: solid 1px #e5e5e5;
+    padding: 14px 0;
+    height: 30px;
+}
+
+
+/* ************************************************ FOOTER ******************************* */
+
+
+#footer{
+    width: 100%;
+    height: 340px;
+    background-color: #1a1e1b;
+    padding-top: 25px;
+    padding-left: 22px;
+    clear: both;
+    
+}
+
+#footer h2{
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #ffffff;
+    
+}
+
+#footer p{
+    color: #554550;
+} 
+
+#footer a{
+    color: #adadad;
+}
+
+#box1{
+    float: left;
+    width: 30%;
+    padding-right: 30px;
+}
+
+#box2{
+    float: left;
+    width: 30%;
+    padding-right: 30px;
+    
+}
+
+#box3{
+    float: right;
+    width: 30%;
+    padding-left: 30px;
+}
+
+/* ************************************************ COPYRIGHT ******************************* */
+
+
+#copyright{
+    width: 100%;
+    height: 130px;
+    text-align: center;
+    background-color: #7d9b94;
+    padding-top: 55px;
+    clear: both;
+}
+
+#copyright p{
+    font-size: 12px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: white;
+}
+
+
+
+
+/* -----------------------------------------------Vehicle-for-sale------------------------------------------ */
+* {box-sizing: border-box;}
+
+.middle {
+  position: relative;
+  width: 100%;
+  /* max-width: 300px; */
+ 
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: 400px;
+  
+}
+
+.overlay {
+  position: absolute; 
+  bottom: 0; 
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1; 
+  width: 100%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 10px;
+  padding: 20px;
+  text-align: center;
+  height: 400px;
+}
+
+.middle:hover .overlay {
+  opacity: 1;
+}
+#cars{
+    display: flex;
+    flex-direction: row;
+
+}
